@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/myproject_exe.dir/compile.cpp.o  -o myproject_exe  -L/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/bin -rdynamic -lmujoco131 -lGL -lGLU -lglut -lglew -lglfw -Wl,-rpath,/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/bin 

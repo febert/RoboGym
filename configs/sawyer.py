@@ -1,4 +1,4 @@
 config ={
 'modelfile':'mujoco_models/sawyer/sawyer.urdf',
-'T': 10
+'T': 1000
 }

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/convertfiles_exe.dir/compile.cpp.o  -o convertfiles_exe  -L/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/bin -rdynamic -lmujoco131 -lGL -lGLU -lglut -Wl,-rpath,/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/bin 

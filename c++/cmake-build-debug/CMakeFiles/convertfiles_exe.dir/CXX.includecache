@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/frederik/Documents/RoboGym/c++/compile.cpp
+mujoco.h
+/home/frederik/Documents/RoboGym/c++/mujoco.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjdata.h
+
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjmodel.h
+
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjrender.h
+
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjvisualize.h
+
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mujoco.h
+stdlib.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/stdlib.h
+math.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/math.h
+mjmodel.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjmodel.h
+mjdata.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjdata.h
+mjvisualize.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjvisualize.h
+mjrender.h
+/home/frederik/Documents/lsdc/src/3rdparty/mjpro131/include/mjrender.h
+

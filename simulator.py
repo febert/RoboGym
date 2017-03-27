@@ -14,7 +14,7 @@ class Simulator():
         args = parser.parse_args()
 
         config = args.conf
-        confmod = imp.load_source('conf','paramsettings/' + config)
+        confmod = imp.load_source('conf','configs/' + config + '.py')
         self.conf = confmod.config
 
 
@@ -25,7 +25,7 @@ class Simulator():
                                          init_height=480, go_fast=gofast)
         self.viewer.start()
         self.viewer.set_model(self.model)
-        self.viewer.cam.camid = 0
+        # self.viewer.cam.camid = 0
 
     def start(self):
         for t in range(self.conf['T']):

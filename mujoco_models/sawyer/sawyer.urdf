@@ -4,6 +4,12 @@
 <!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
 <!-- =================================================================================== -->
 <robot name="sawyer" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <mujoco>
+        <compiler meshdir="meshes/" balanceinertia="true"/>
+  </mujoco>
+
+
   <material name="black">
     <color rgba="0 0 0 1"/>
   </material>
@@ -40,7 +46,7 @@
     <visual>
       <origin rpy="1.57079632679 0 -1.57079632679" xyz="0.26 0.345 -0.91488"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/pedestal.DAE"/>
+        <mesh filename="sawyer_pv/pedestal.stl"/>
       </geometry>
       <material name="darkgray"/>
     </visual>
@@ -106,7 +112,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/base.DAE"/>
+        <mesh filename="sawyer_pv/base.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -126,7 +132,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_mp3/l0.DAE"/>
+        <mesh filename="sawyer_mp3/l0.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -153,7 +159,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/head.DAE"/>
+        <mesh filename="sawyer_pv/head.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -193,7 +199,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_mp3/l1.DAE"/>
+        <mesh filename="sawyer_mp3/l1.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -220,7 +226,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/l2.DAE"/>
+        <mesh filename="sawyer_pv/l2.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -247,7 +253,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/l3.DAE"/>
+        <mesh filename="sawyer_pv/l3.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -274,7 +280,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/l4.DAE"/>
+        <mesh filename="sawyer_pv/l4.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -314,7 +320,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_pv/l5.DAE"/>
+        <mesh filename="sawyer_pv/l5.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
@@ -355,7 +361,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://sawyer_description/meshes/sawyer_mp1/l6.DAE"/>
+        <mesh filename="sawyer_mp1/l6.stl"/>
       </geometry>
       <material name="sawyer_red"/>
     </visual>
