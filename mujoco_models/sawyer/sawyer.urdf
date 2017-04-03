@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="sawyer">
   <mujoco>
-     <compiler meshdir="meshes/" balanceinertia="true"/>
+     <compiler meshdir="meshes/" balanceinertia="true" discardvisual="false"/>
   </mujoco>
 
   <material name="black">
@@ -25,7 +25,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <box size="0 0 0"/>
+        <box size="0.1 0.1 0.1"/>
       </geometry>
       <material name="darkgray">
         <color rgba=".2 .2 .2 1"/>
