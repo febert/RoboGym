@@ -1,0 +1,1 @@
+sudo docker run -v /home/frederik/Documents/RoboGym/mujoco_models/environment:/meshes -it v-hacd /bin/bash

@@ -29,6 +29,7 @@ class Simulator():
 
     def start(self):
         for t in range(self.conf['T']):
+            # self.model.data.ctrl = np.ones_like(self.model.data.ctrl)*10
             self.model.data.ctrl = np.zeros_like(self.model.data.ctrl)
             self.viewer.loop_once()
             self.model.step()
